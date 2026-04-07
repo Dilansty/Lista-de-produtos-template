@@ -28,15 +28,28 @@ body {
     flex-direction: column;
     align-items: start;
     gap: 12px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
     filter: grayscale(20%);
 }
+.estrelas{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
 
-.fa-star { color: #FFD700; font-size: 24px; }
+.fas { 
+    display: flex;
+    color: #FFD700;
+    width: 10px;
+ }
+ .imagenario {
+    width: 230px;
+    height: 200px;
+ }
 
 .card img {
     width: 230px;
-    height: 200px;
+    
     object-fit: cover;
     border-radius: 5% / 5%;
     
@@ -45,8 +58,7 @@ body {
 .card:hover {
     filter: grayscale(0);
     margin: 0px;
-
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.24);
 }
 
 .card-info {
