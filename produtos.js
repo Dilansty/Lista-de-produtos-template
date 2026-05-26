@@ -90,5 +90,14 @@ export const listaProdutos = [
     "imagem": "camera-sony-alpha-a7-iii.png",
     "categoria": "Eletrônicos",
     "classificacao": 4
+  },
+  {
+    "id": 11,
+    "nome": "Fritando",
+    "descricao": "Fritando todos os dias sem parar",
+    "preco": 899.99,
+    "imagem": "61k5yk0GImL._AC_SL1200_.jpg",
+    "categoria": "Eletrônicos",
+    "classificacao": 2
   }
 ]
