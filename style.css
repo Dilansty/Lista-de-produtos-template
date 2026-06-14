@@ -43,8 +43,17 @@ body {
     width: 10px;
  }
  .imagenario {
+    
+     display: flex;
+     object-fit: cover;
+     object-position: top;
+ }
+ .imgProduct{
     width: 230px;
     height: 200px;
+    display: flex;
+     object-fit: cover;
+     object-position: top;
  }
 
 .card img {

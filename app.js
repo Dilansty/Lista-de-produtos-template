@@ -19,9 +19,14 @@ function criarCard(produto) {
     const card = document.createElement('div')
     card.className = 'card'
  
+    const caixaFoto = document.createElement('div')
+    caixaFoto.className = 'imgProduct'
+
     const foto = document.createElement('img')
     foto.src = `./img/${produto.imagem}`
     foto.alt = `Foto de ${produto.nome}`
+
+    
  
     const nome = document.createElement('h3')
     nome.textContent = produto.nome
@@ -34,7 +39,8 @@ function criarCard(produto) {
     const categoria = document.createElement('span')
     categoria.textContent = produto.categoria
  
-    card.append(categoria, foto, nome, estrelas, preco)
+    caixaFoto.append(foto)
+    card.append(categoria, caixaFoto, nome, estrelas, preco)
  
     return card
 }
